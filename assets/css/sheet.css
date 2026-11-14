@@ -1,0 +1,25 @@
+/* برگهٔ پیش‌فاکتور — هم در صفحه و هم در پنجرهٔ چاپ استفاده می‌شود (مستقل از قالب سایت) */
+.sd-sheet{--sk:#13233f;--sa:#f0a500;--sl:#dde1d8;position:relative;text-align:start;font-family:'Vazirmatn',Tahoma,sans-serif;color:var(--sk);background:#fff;line-height:1.8;font-size:14px;max-width:794px;margin:0 auto;border:1px solid var(--sl);overflow:hidden;box-sizing:border-box}
+.sd-sheet *{box-sizing:border-box;font-family:inherit}
+.sd-sheet img{display:block;max-width:100%}
+.sd-sheet .lh-top,.sd-sheet .lh-foot{width:100%;height:auto}
+.sd-sheet .lh-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;z-index:0}
+.sd-sheet.is-page{aspect-ratio:210/297}
+.sd-sheet .body{position:relative;z-index:1;padding:20px 28px}
+.sd-sheet.is-page .body{padding-inline:8%}
+.sd-sheet .head{border-bottom:3px solid var(--sa);padding-bottom:8px;margin-bottom:12px}
+.sd-sheet .head strong{font-size:1.1rem}
+.sd-sheet h3{font-size:1.15rem;font-weight:800;margin:0 0 6px}
+.sd-sheet .client{font-size:.9rem;font-weight:700;margin:0 0 10px}
+.sd-sheet table{width:100%;border-collapse:collapse;font-size:.85rem;table-layout:fixed}
+.sd-sheet th,.sd-sheet td{padding:7px 9px;border:1px solid var(--sl);text-align:start;vertical-align:top;overflow-wrap:anywhere;word-break:break-word}
+.sd-sheet th{background:#f4f6fa}
+.sd-sheet td:first-child,.sd-sheet th:first-child{width:54px;text-align:center;white-space:nowrap}
+.sd-sheet th:nth-child(2),.sd-sheet td:nth-child(2){width:34%}
+.sd-sheet .ltr-num{direction:ltr;display:inline-block;unicode-bidi:embed;font-weight:700}
+.sd-sheet .total{margin:12px 0 0;padding:9px 12px;background:#f4f6fa;border-radius:8px;font-weight:700}
+.sd-sheet .disc{margin:12px 0 0;font-size:.78rem;color:#5d6b82}
+@media (max-width:640px){.sd-sheet .body{padding:14px}.sd-sheet table{font-size:.78rem}.sd-sheet th,.sd-sheet td{padding:6px 5px}.sd-sheet td:first-child,.sd-sheet th:first-child{width:30px}.sd-sheet th:nth-child(2),.sd-sheet td:nth-child(2){width:36%}.sd-sheet .head,.sd-sheet .client{font-size:.82rem}}
+
+.sd-sheet[dir="rtl"]{direction:rtl}
+.sd-sheet[dir="ltr"]{direction:ltr}

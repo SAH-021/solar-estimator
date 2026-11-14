@@ -1,0 +1,1381 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Solar Estimator 2.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2026-11-13 00:00+0000\n"
+"Last-Translator: SAH\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Domain: solar-estimator\n"
+
+#. Plugin header (solar-estimator.php)
+#: solar-estimator.php:0
+msgid "Solar Estimator & Quote System"
+msgstr "برآوردگر و پیش‌فاکتور خورشیدی"
+
+#. Plugin header (solar-estimator.php)
+#: solar-estimator.php:0
+msgid ""
+"Solar power plant design and quote system with the Neshan map: automatic or "
+"manual selection of panels, inverters and cables, cost and payback estimate,"
+" customer lead capture and a quote with your company letterhead. Bilingual "
+"(Persian / English). Shortcode: [solar_estimator]"
+msgstr ""
+"سامانهٔ طراحی و پیش‌فاکتور نیروگاه خورشیدی با نقشه نشان: انتخاب خودکار یا "
+"دستی پنل، اینورتر و کابل، برآورد هزینه و بازگشت سرمایه، ثبت درخواست مشتری و "
+"پیش‌فاکتور با سربرگ شرکت شما. دوزبانه (فارسی / انگلیسی). شورت‌کد: "
+"[solar_estimator]"
+
+#: includes/class-frontend.php:33
+msgid "billion Toman"
+msgstr "میلیارد تومان"
+
+#: includes/class-frontend.php:33
+msgid "million Toman"
+msgstr "میلیون تومان"
+
+#: includes/class-frontend.php:35
+msgid "✍️ Other (I’ll type it myself)"
+msgstr "✍️ مورد دیگر (خودم می‌نویسم)"
+
+#: includes/class-frontend.php:35
+msgid "Automatic (recommended)"
+msgstr "انتخاب خودکار (پیشنهادی)"
+
+#: includes/class-frontend.php:36 includes/template.php:86
+msgid ""
+"In automatic mode the panel, inverter and cables are chosen from the "
+"installation type and capacity. The reason for each choice is shown in the "
+"results."
+msgstr ""
+"در حالت خودکار، پنل، اینورتر و کابل‌ها بر اساس نوع نصب و ظرفیت انتخاب "
+"می‌شوند. دلیل هر انتخاب را در بخش نتایج می‌بینید."
+
+#: includes/class-frontend.php:37
+msgid ""
+"Choose each item from the list. If your model is not listed, pick “Other” "
+"and type it yourself. Results update instantly."
+msgstr ""
+"هر مورد را از فهرست انتخاب کنید. اگر مدل شما در فهرست نیست، «مورد دیگر» را "
+"بزنید و خودتان بنویسید. نتایج بلافاصله به‌روز می‌شوند."
+
+#: includes/class-frontend.php:38 includes/template.php:74
+msgid "Available area (m²)"
+msgstr "مساحت در دسترس (مترمربع)"
+
+#: includes/class-frontend.php:38
+msgid "Target capacity (kW)"
+msgstr "ظرفیت مدنظر (کیلووات)"
+
+#: includes/class-frontend.php:40
+msgid "The Neshan map key has not been entered."
+msgstr "کلید نقشه نشان وارد نشده است."
+
+#: includes/class-frontend.php:41
+msgid ""
+"Add the Web key in the {link}. Until then, visitors calculate without a map,"
+" using the default location."
+msgstr ""
+"کلید Web را در {link} ثبت کنید. تا آن زمان بازدیدکنندگان بدون نقشه و با "
+"موقعیت پیش‌فرض محاسبه می‌کنند."
+
+#: includes/class-frontend.php:42
+msgid "plugin settings"
+msgstr "تنظیمات افزونه"
+
+#: includes/class-frontend.php:43
+msgid ""
+"The map is temporarily unavailable; the calculation uses the country’s "
+"average irradiation."
+msgstr "نقشه موقتاً در دسترس نیست؛ محاسبه با تابش میانگین کشور انجام می‌شود."
+
+#: includes/class-frontend.php:44
+msgid ""
+"The map could not be loaded. Check your internet connection; the rest of the"
+" calculation still works."
+msgstr ""
+"نقشه بارگذاری نشد. اتصال اینترنت را بررسی کنید؛ بقیهٔ محاسبه همچنان کار "
+"می‌کند."
+
+#: includes/class-frontend.php:45
+msgid "The Neshan map failed to start."
+msgstr "نقشه نشان راه‌اندازی نشد."
+
+#: includes/class-frontend.php:46
+msgid "Project location"
+msgstr "محل پروژه"
+
+#: includes/class-frontend.php:47
+msgid "Satellite source changed: {name}"
+msgstr "منبع ماهواره عوض شد: {name}"
+
+#: includes/class-frontend.php:48
+msgid ""
+"Satellite imagery does not load on your network; it may be filtered and need"
+" a VPN"
+msgstr ""
+"تصویر ماهواره‌ای روی شبکهٔ شما بارگذاری نمی‌شود؛ ممکن است فیلتر باشد و به "
+"VPN نیاز داشته باشد"
+
+#: includes/class-frontend.php:49
+msgid "Imagery: {name}"
+msgstr "تصاویر: {name}"
+
+#: includes/class-frontend.php:49
+msgid "Satellite source: {name}"
+msgstr "منبع ماهواره: {name}"
+
+#: includes/class-frontend.php:51
+msgid "Lat: {lat}°  Lng: {lng}°"
+msgstr "عرض: {lat}°  طول: {lng}°"
+
+#: includes/class-frontend.php:52
+msgid "Fetching climate data…"
+msgstr "در حال دریافت داده‌های اقلیمی…"
+
+#: includes/class-frontend.php:52
+msgid "Climate data updated ✓"
+msgstr "داده‌های اقلیمی به‌روز شد ✓"
+
+#: includes/class-frontend.php:52
+msgid "Irradiation atlas used ✓"
+msgstr "از اطلس تابش استفاده شد ✓"
+
+#: includes/class-frontend.php:53
+msgid "Your browser does not support geolocation"
+msgstr "مرورگر شما موقعیت‌یابی را پشتیبانی نمی‌کند"
+
+#: includes/class-frontend.php:53
+msgid "Location permission was not granted"
+msgstr "اجازهٔ دسترسی به موقعیت داده نشد"
+
+#: includes/class-frontend.php:54
+msgid "Searching…"
+msgstr "در حال جستجو…"
+
+#: includes/class-frontend.php:54
+msgid "Place not found"
+msgstr "مکان پیدا نشد"
+
+#: includes/class-frontend.php:54
+msgid "Search is unavailable; click on the map instead"
+msgstr "جستجو در دسترس نیست؛ روی نقشه کلیک کنید"
+
+#: includes/class-frontend.php:55 includes/template.php:43
+msgid "Draw land or roof boundary"
+msgstr "رسم محدودهٔ زمین یا سقف"
+
+#: includes/class-frontend.php:56
+msgid "Drawing: click the corners (press again to finish)"
+msgstr "در حال رسم: روی گوشه‌ها کلیک کنید (برای پایان دوباره بزنید)"
+
+#: includes/class-frontend.php:57
+msgid ""
+"Boundary area: {area} m². When you are done, press the draw button again."
+msgstr "مساحت محدوده: {area} مترمربع. پس از اتمام، دوباره دکمهٔ رسم را بزنید."
+
+#: includes/class-frontend.php:59
+msgid "Enter a positive number."
+msgstr "یک عدد مثبت وارد کنید."
+
+#: includes/class-frontend.php:60
+msgid "DC cable: {dc} and AC cable: {ac}"
+msgstr "کابل DC: {dc} و کابل AC: {ac}"
+
+#: includes/class-frontend.php:61
+msgid ""
+"DC cable size {dc} and, for the AC side, the economical cable {ac} were "
+"selected."
+msgstr "سایز کابل DC {dc} و برای سمت AC کابل اقتصادی {ac} انتخاب شد."
+
+#: includes/class-frontend.php:62
+msgid "{kw} kW | input up to {v} V | efficiency {eff}%"
+msgstr "{kw} کیلووات | ورودی تا {v} ولت | راندمان {eff}٪"
+
+#: includes/class-frontend.php:63
+msgid "1 transformer, {kva}"
+msgstr "۱ دستگاه ترانس {kva}"
+
+#: includes/class-frontend.php:63
+msgid "Not required (low-voltage connection)"
+msgstr "نیاز نیست (اتصال فشار ضعیف)"
+
+#: includes/class-frontend.php:64
+msgid "Inverter: {kw}"
+msgstr "اینورتر: {kw}"
+
+#: includes/class-frontend.php:64
+msgid "Annual generation: {mwh} MWh"
+msgstr "تولید سالانه: {mwh} مگاوات‌ساعت"
+
+#: includes/class-frontend.php:65
+msgid "{usd} ({rate} Toman per USD)"
+msgstr "{usd} (هر دلار {rate} تومان)"
+
+#: includes/class-frontend.php:65
+msgid "{min} to {max} years"
+msgstr "{min} تا {max} سال"
+
+#: includes/class-frontend.php:65
+msgid "{n} degrees"
+msgstr "{n} درجه"
+
+#: includes/class-frontend.php:66
+msgid "{n} × {w}"
+msgstr "{n} عدد {w}"
+
+#: includes/class-frontend.php:66
+msgid "{n} strings of {ser} | string voltage {v}"
+msgstr "{n} رشته {ser}تایی | ولتاژ رشته {v}"
+
+#: includes/class-frontend.php:67
+msgid "{n} × {kw}"
+msgstr "{n} دستگاه {kw}"
+
+#: includes/class-frontend.php:67
+msgid "{brand} | efficiency {eff}"
+msgstr "{brand} | راندمان {eff}"
+
+#: includes/class-frontend.php:68
+msgid "Total AC current {a} | main breaker {b}"
+msgstr "جریان کل AC {a} | کلید اصلی {b}"
+
+#: includes/class-frontend.php:69
+msgid "Allowed"
+msgstr "مجاز"
+
+#: includes/class-frontend.php:69
+msgid "Out of limit ({max})"
+msgstr "خارج از حد مجاز ({max})"
+
+#: includes/class-frontend.php:69
+msgid "max {pct}%"
+msgstr "حداکثر {pct}٪"
+
+#: includes/class-frontend.php:70
+msgid "Drop: {drop} {status} | {m} m (run per string {len} m)"
+msgstr "افت: {drop} {status} | {m} متر (مسیر هر رشته {len} متر)"
+
+#: includes/class-frontend.php:71
+msgid "Current per inverter {a} | Drop: {drop} {status} | {m} m"
+msgstr "جریان هر اینورتر {a} | افت: {drop} {status} | {m} متر"
+
+#: includes/class-frontend.php:73
+msgid "Custom"
+msgstr "سفارشی"
+
+#: includes/class-frontend.php:73
+msgid "Custom panel {w}W"
+msgstr "پنل سفارشی {w}W"
+
+#: includes/class-frontend.php:73
+msgid "Custom inverter {kw}kW"
+msgstr "اینورتر سفارشی {kw}kW"
+
+#: includes/class-frontend.php:74
+msgid "Custom DC cable"
+msgstr "کابل DC سفارشی"
+
+#: includes/class-frontend.php:74
+msgid "Custom AC cable"
+msgstr "کابل AC سفارشی"
+
+#: includes/class-frontend.php:74
+msgid "calculated with {label}"
+msgstr "محاسبه با {label}"
+
+#: includes/class-frontend.php:75
+msgid "You entered the panel {name} yourself (power {w} W)."
+msgstr "پنل {name} را خودتان وارد کردید (توان {w} وات)."
+
+#: includes/class-frontend.php:76
+msgid "You selected the panel {name}."
+msgstr "پنل {name} را انتخاب کردید."
+
+#: includes/class-frontend.php:77
+msgid ""
+"For a shed roof or flat rooftop with a compact factor of {area} m² per kW, "
+"the panel {name} was selected."
+msgstr ""
+"برای سقف سوله یا پشت‌بام با ضریب فشردهٔ {area} مترمربع بر کیلووات، پنل "
+"{name} انتخاب شد."
+
+#: includes/class-frontend.php:78
+msgid ""
+"For a ground-mount plant with a factor of {area} m² per kW, the high-power "
+"panel {name} was selected."
+msgstr ""
+"برای نیروگاه زمینی با ضریب {area} مترمربع بر کیلووات، پنل پرتوان {name} "
+"انتخاب شد."
+
+#: includes/class-frontend.php:79
+msgid "You entered the inverter {name} yourself (power {kw} kW)."
+msgstr "اینورتر {name} را خودتان وارد کردید (توان {kw} کیلووات)."
+
+#: includes/class-frontend.php:80
+msgid "You selected the inverter {name}."
+msgstr "اینورتر {name} را انتخاب کردید."
+
+#: includes/class-frontend.php:81
+msgid ""
+"For a capacity of {kwp} kWp, the inverter {name} with a standard overload "
+"ratio was selected."
+msgstr ""
+"با توجه به ظرفیت {kwp} کیلووات‌پیک، اینورتر {name} با نسبت اورلود استاندارد "
+"انتخاب شد."
+
+#: includes/class-frontend.php:83
+msgid "Solar module"
+msgstr "ماژول خورشیدی"
+
+#: includes/class-frontend.php:83
+msgid "Grid-tied inverter"
+msgstr "اینورتر متصل به شبکه"
+
+#: includes/class-frontend.php:83
+msgid "Mounting structure"
+msgstr "سازه نگهدارنده"
+
+#: includes/class-frontend.php:84
+msgid "Earthing and lightning protection"
+msgstr "ارتینگ و حفاظت صاعقه"
+
+#: includes/class-frontend.php:84
+msgid "Engineering, installation and commissioning"
+msgstr "مهندسی، نصب و راه‌اندازی"
+
+#: includes/class-frontend.php:84
+msgid "Client notes"
+msgstr "توضیحات مشتری"
+
+#: includes/class-frontend.php:85
+msgid "{n} pcs — {name}"
+msgstr "{n} عدد — {name}"
+
+#: includes/class-frontend.php:85
+msgid "{n} unit(s) — {name}"
+msgstr "{n} دستگاه — {name}"
+
+#: includes/class-frontend.php:86
+msgid "Equivalent to {kwp} kWp, hot-dip galvanized"
+msgstr "معادل {kwp} کیلووات‌پیک، گالوانیزه گرم"
+
+#: includes/class-frontend.php:87
+msgid "1 complete standard set"
+msgstr "۱ ست کامل استاندارد"
+
+#: includes/class-frontend.php:87
+msgid "Execution, testing and grid hand-over"
+msgstr "اجرا، تست و تحویل به شبکه"
+
+#: includes/class-frontend.php:88
+msgid "Client: {name} | Company: {company} | Phone: {phone} | Date: {date}"
+msgstr "مشتری: {name} | شرکت: {company} | تلفن: {phone} | تاریخ: {date}"
+
+#: includes/class-frontend.php:89
+msgid "Date: {date}"
+msgstr "تاریخ: {date}"
+
+#: includes/class-frontend.php:89
+msgid "Not provided"
+msgstr "ثبت نشده"
+
+#: includes/class-frontend.php:89
+msgid "Phone: {phone}"
+msgstr "تلفن: {phone}"
+
+#: includes/class-frontend.php:90 includes/template.php:173
+msgid "Quote and equipment list"
+msgstr "پیش‌فاکتور و سیاهه تجهیزات"
+
+#: includes/class-frontend.php:90
+msgid "No."
+msgstr "ردیف"
+
+#: includes/class-frontend.php:90
+msgid "Description"
+msgstr "شرح"
+
+#: includes/class-frontend.php:90
+msgid "Quantity and specifications"
+msgstr "تعداد و مشخصات"
+
+#: includes/class-frontend.php:91
+msgid "Estimated total construction cost: {cost} (about {usd})"
+msgstr "برآورد کل هزینهٔ ساخت: {cost} (حدود {usd})"
+
+#: includes/class-frontend.php:92
+msgid "Letterhead"
+msgstr "سربرگ"
+
+#: includes/class-frontend.php:92
+msgid "Quote"
+msgstr "پیش‌فاکتور"
+
+#: includes/class-frontend.php:94
+msgid "Please enter your full name."
+msgstr "لطفاً نام و نام خانوادگی خود را وارد کنید."
+
+#: includes/class-frontend.php:94
+msgid "The mobile number is not valid, e.g. 09121234567"
+msgstr "شمارهٔ موبایل معتبر نیست؛ مثلاً 09121234567"
+
+#: includes/class-frontend.php:95
+msgid "Submitting…"
+msgstr "در حال ثبت…"
+
+#: includes/class-frontend.php:95 includes/template.php:187
+msgid "Confirm and issue"
+msgstr "تایید و صدور"
+
+#: includes/class-frontend.php:96
+msgid "Submission failed; please try again."
+msgstr "ثبت انجام نشد؛ دوباره تلاش کنید."
+
+#: includes/class-frontend.php:96
+msgid "Could not reach the server; check your internet connection."
+msgstr "اتصال به سرور برقرار نشد؛ اینترنت خود را بررسی کنید."
+
+#: includes/class-frontend.php:98
+msgid "Saving…"
+msgstr "در حال ذخیره…"
+
+#: includes/class-frontend.php:98
+msgid "Saved ✓"
+msgstr "ذخیره شد ✓"
+
+#: includes/class-frontend.php:98
+msgid "Could not save."
+msgstr "ذخیره نشد."
+
+#: includes/class-frontend.php:98
+msgid "Could not reach the server."
+msgstr "اتصال به سرور برقرار نشد."
+
+#: includes/class-leads.php:14
+msgid "Estimate details"
+msgstr "جزئیات برآورد"
+
+#: includes/class-leads.php:20
+msgid "Approximate address"
+msgstr "آدرس تقریبی"
+
+#: includes/class-leads.php:20
+msgid "Coordinates"
+msgstr "مختصات"
+
+#: includes/class-leads.php:21
+msgid "Installation type"
+msgstr "نوع نصب"
+
+#: includes/class-leads.php:21
+msgid "Input basis"
+msgstr "مبنای ورودی"
+
+#: includes/class-leads.php:22
+msgid "Input value"
+msgstr "مقدار ورودی"
+
+#: includes/class-leads.php:22 includes/class-leads.php:168
+#: includes/template.php:71
+msgid "Area (m²)"
+msgstr "مساحت (مترمربع)"
+
+#: includes/class-leads.php:23
+msgid "Panel capacity (kWp)"
+msgstr "ظرفیت پنل‌ها (کیلووات‌پیک)"
+
+#: includes/class-leads.php:23
+msgid "Inverter capacity (kW)"
+msgstr "ظرفیت اینورتر (کیلووات)"
+
+#: includes/class-leads.php:24
+msgid "Number of panels"
+msgstr "تعداد پنل"
+
+#: includes/class-leads.php:24
+msgid "Panel model"
+msgstr "مدل پنل"
+
+#: includes/class-leads.php:25
+msgid "Number of inverters"
+msgstr "تعداد اینورتر"
+
+#: includes/class-leads.php:25
+msgid "Inverter model"
+msgstr "مدل اینورتر"
+
+#: includes/class-leads.php:26
+msgid "Applicant’s notes"
+msgstr "توضیحات متقاضی"
+
+#: includes/class-leads.php:27
+msgid "Construction cost (million Toman)"
+msgstr "هزینهٔ ساخت (میلیون تومان)"
+
+#: includes/class-leads.php:27
+msgid "Construction cost (USD)"
+msgstr "هزینهٔ ساخت (دلار)"
+
+#: includes/class-leads.php:28
+msgid "Annual generation (MWh)"
+msgstr "تولید سالانه (مگاوات‌ساعت)"
+
+#: includes/class-leads.php:28
+msgid "Payback (years)"
+msgstr "بازگشت سرمایه (سال)"
+
+#: includes/class-leads.php:34
+msgid "Ground-mount"
+msgstr "زمینی"
+
+#: includes/class-leads.php:35
+msgid "Shed roof"
+msgstr "سقف سوله"
+
+#: includes/class-leads.php:36
+msgid "Flat rooftop"
+msgstr "پشت‌بام تخت"
+
+#: includes/class-leads.php:45
+msgid "Solar plant requests"
+msgstr "درخواست‌های نیروگاه خورشیدی"
+
+#: includes/class-leads.php:45
+msgid "Request"
+msgstr "درخواست"
+
+#: includes/class-leads.php:46
+msgid "Solar Estimator"
+msgstr "برآوردگر خورشیدی"
+
+#: includes/class-leads.php:46
+msgid "Requests"
+msgstr "درخواست‌ها"
+
+#: includes/class-leads.php:47
+msgid "View request"
+msgstr "مشاهدهٔ درخواست"
+
+#: includes/class-leads.php:47
+msgid "Search requests"
+msgstr "جستجوی درخواست‌ها"
+
+#: includes/class-leads.php:48
+msgid "No requests yet."
+msgstr "هنوز درخواستی ثبت نشده است."
+
+#: includes/class-leads.php:100
+msgid "Name: %s"
+msgstr "نام: %s"
+
+#: includes/class-leads.php:102
+msgid "Company: %s"
+msgstr "شرکت: %s"
+
+#: includes/class-leads.php:104
+msgid "Mobile: %s"
+msgstr "موبایل: %s"
+
+#: includes/class-leads.php:107
+msgid "Installation type: %s"
+msgstr "نوع نصب: %s"
+
+#: includes/class-leads.php:109
+msgid "Capacity: %s kWp"
+msgstr "ظرفیت: %s کیلووات‌پیک"
+
+#: includes/class-leads.php:111
+msgid "Construction cost: %s"
+msgstr "هزینهٔ ساخت: %s"
+
+#: includes/class-leads.php:111 includes/class-leads.php:142
+msgid "%s million Toman"
+msgstr "%s میلیون تومان"
+
+#: includes/class-leads.php:113
+msgid "Address: %s"
+msgstr "آدرس: %s"
+
+#: includes/class-leads.php:116
+msgid "Map: %s"
+msgstr "نقشه: %s"
+
+#: includes/class-leads.php:121
+msgid "View in admin: %s"
+msgstr "مشاهده در پیشخوان: %s"
+
+#: includes/class-leads.php:126
+msgid "New solar plant estimate request — %s"
+msgstr "درخواست جدید برآورد نیروگاه خورشیدی — %s"
+
+#: includes/class-leads.php:133 includes/class-leads.php:149
+msgid "Applicant"
+msgstr "متقاضی"
+
+#: includes/class-leads.php:133 includes/class-leads.php:150
+msgid "Mobile"
+msgstr "موبایل"
+
+#: includes/class-leads.php:134
+msgid "Capacity"
+msgstr "ظرفیت"
+
+#: includes/class-leads.php:134
+msgid "Construction cost"
+msgstr "هزینهٔ ساخت"
+
+#: includes/class-leads.php:134
+msgid "Date"
+msgstr "تاریخ"
+
+#: includes/class-leads.php:161
+msgid "%1$s to %2$s"
+msgstr "%1$s تا %2$s"
+
+#: includes/class-leads.php:168 includes/template.php:72
+msgid "Capacity (kW)"
+msgstr "ظرفیت (کیلووات)"
+
+#: includes/class-leads.php:173
+msgid ""
+"The numbers were calculated in the customer’s browser and sent over; they "
+"are useful for sales follow-up, not as a binding document."
+msgstr ""
+"اعداد در مرورگر مشتری محاسبه و ارسال شده‌اند؛ برای پیگیری فروش مفیدند، نه "
+"به‌عنوان سند قطعی."
+
+#: includes/class-rest.php:38
+msgid "The Neshan service key is not set."
+msgstr "کلید سرویس نشان تنظیم نشده است."
+
+#: includes/class-rest.php:40
+msgid "Could not connect to the Neshan service."
+msgstr "اتصال به سرویس نشان برقرار نشد."
+
+#: includes/class-rest.php:42
+msgid "The Neshan service did not return a valid response."
+msgstr "سرویس نشان پاسخ معتبری نداد."
+
+#: includes/class-rest.php:50
+msgid "Too many searches; please wait a moment."
+msgstr "جستجوهای زیاد؛ کمی صبر کنید."
+
+#: includes/class-rest.php:78
+msgid "All prices must be positive numbers."
+msgstr "همهٔ قیمت‌ها باید عدد مثبت باشند."
+
+#: includes/class-rest.php:90
+msgid "Too many requests from you; please try again later."
+msgstr "درخواست‌های شما زیاد بوده است؛ بعداً دوباره تلاش کنید."
+
+#: includes/class-rest.php:95
+msgid "Please enter your name."
+msgstr "لطفاً نام خود را وارد کنید."
+
+#: includes/class-rest.php:96
+msgid "The mobile number is not valid (e.g. 09121234567)."
+msgstr "شمارهٔ موبایل معتبر نیست (مثلاً 09121234567)."
+
+#: includes/class-rest.php:99
+msgid "Could not save the request; please try again."
+msgstr "درخواست ذخیره نشد؛ دوباره تلاش کنید."
+
+#: includes/class-settings.php:17
+msgid "Standard (day) — recommended"
+msgstr "استاندارد (روز) — پیشنهادی"
+
+#: includes/class-settings.php:18
+msgid "Neshan classic"
+msgstr "کلاسیک نشان"
+
+#: includes/class-settings.php:19
+msgid "Dreamy"
+msgstr "رویایی"
+
+#: includes/class-settings.php:20
+msgid "Dreamy gold"
+msgstr "رویایی طلایی"
+
+#: includes/class-settings.php:22
+msgid "Standard (night)"
+msgstr "استاندارد (شب)"
+
+#: includes/class-settings.php:30
+msgid "Solar Power Plant Design & Quote System"
+msgstr "سامانهٔ طراحی و پیش‌فاکتور نیروگاه خورشیدی"
+
+#: includes/class-settings.php:32
+msgid ""
+"Pin the location on the map, enter an area or a capacity, and the panels, "
+"inverters and cables are calculated for you."
+msgstr ""
+"موقعیت را روی نقشه مشخص کنید، مساحت یا ظرفیت را وارد کنید؛ پنل، اینورتر و "
+"کابل‌ها برایتان محاسبه می‌شود."
+
+#: includes/class-settings.php:34
+msgid ""
+"This document is a preliminary estimate and does not replace a final "
+"quotation; the final price is set after a technical site visit."
+msgstr ""
+"این سند یک برآورد اولیه است و جایگزین پیش‌فاکتور نهایی نیست؛ قیمت قطعی پس از"
+" بازدید فنی تعیین می‌شود."
+
+#: includes/class-settings.php:82 includes/template.php:41
+msgid "Satellite"
+msgstr "ماهواره"
+
+#: includes/class-settings.php:88 includes/class-settings.php:196
+msgid "Solar Estimator settings"
+msgstr "تنظیمات برآوردگر خورشیدی"
+
+#: includes/class-settings.php:88
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: includes/class-settings.php:162
+msgid "Enabled"
+msgstr "فعال"
+
+#: includes/class-settings.php:177
+msgid "Choose or upload image"
+msgstr "انتخاب یا بارگذاری تصویر"
+
+#: includes/class-settings.php:178
+msgid "Remove image"
+msgstr "حذف تصویر"
+
+#: includes/class-settings.php:197
+msgid "Shortcode:"
+msgstr "شورت‌کد:"
+
+#: includes/class-settings.php:198
+msgid "Force a language on one page:"
+msgstr "اجبار زبان در یک صفحه:"
+
+#: includes/class-settings.php:203
+msgid "Language"
+msgstr "زبان"
+
+#: includes/class-settings.php:206
+msgid "Interface language"
+msgstr "زبان رابط"
+
+#: includes/class-settings.php:207
+msgid ""
+"Applies to these admin screens and to the tool on your site. “Automatic” "
+"follows the site language. A single page can override it with the lang "
+"attribute of the shortcode."
+msgstr ""
+"برای این صفحه‌های مدیریت و ابزار روی سایت شما اعمال می‌شود. «خودکار» از زبان"
+" سایت پیروی می‌کند. هر صفحه را می‌توان با ویژگی lang در شورت‌کد جداگانه "
+"تعیین کرد."
+
+#: includes/class-settings.php:208
+msgid "Automatic (follow the site language)"
+msgstr "خودکار (مطابق زبان سایت)"
+
+#: includes/class-settings.php:212
+msgid "Daily prices and revenue"
+msgstr "قیمت روز و درآمد"
+
+#: includes/class-settings.php:215
+msgid "Ground-mount plant (USD per kW)"
+msgstr "نیروگاه زمینی (دلار بر کیلووات)"
+
+#: includes/class-settings.php:216
+msgid "Shed roof and flat rooftop (USD per kW)"
+msgstr "سقف سوله و پشت‌بام (دلار بر کیلووات)"
+
+#: includes/class-settings.php:217 includes/template.php:21
+msgid "USD rate (Toman)"
+msgstr "نرخ دلار (تومان)"
+
+#: includes/class-settings.php:217
+msgid ""
+"The site admin can also change these four values directly from the top of "
+"the tool itself (while logged in)."
+msgstr ""
+"مدیر سایت می‌تواند این چهار مقدار را مستقیم از بالای خود ابزار (هنگام ورود "
+"به سایت) هم تغییر دهد."
+
+#: includes/class-settings.php:218
+msgid "SATBA guaranteed purchase (Toman per kWh)"
+msgstr "خرید تضمینی ساتبا (تومان بر کیلووات‌ساعت)"
+
+#: includes/class-settings.php:219
+msgid "Energy-exchange green board multiplier relative to SATBA"
+msgstr "ضریب تابلو سبز بورس انرژی نسبت به ساتبا"
+
+#: includes/class-settings.php:219
+msgid "Default is 1.3."
+msgstr "پیش‌فرض ۱٫۳ است."
+
+#: includes/class-settings.php:220
+msgid "Annual generation adjustment factor"
+msgstr "ضریب تعدیل تولید سالانه"
+
+#: includes/class-settings.php:220
+msgid ""
+"The default 1 means no change. For a more conservative estimate use, for "
+"example, 0.9."
+msgstr ""
+"مقدار پیش‌فرض ۱ یعنی بدون تغییر. برای برآورد محافظه‌کارانه‌تر مثلاً ۰٫۹ "
+"بگذارید."
+
+#: includes/class-settings.php:221
+msgid "Area needed per kW — ground-mount (m²)"
+msgstr "مساحت لازم برای هر کیلووات — زمینی (مترمربع)"
+
+#: includes/class-settings.php:222
+msgid "Area needed per kW — shed roof and rooftop (m²)"
+msgstr "مساحت لازم برای هر کیلووات — سقف سوله و پشت‌بام (مترمربع)"
+
+#: includes/class-settings.php:226
+msgid "Neshan map"
+msgstr "نقشه نشان"
+
+#: includes/class-settings.php:229
+msgid "Map key (Web)"
+msgstr "کلید نقشه (Web)"
+
+#: includes/class-settings.php:232
+msgid ""
+"Create a Web map key for this site’s domain at %1$s (it starts with %2$s). "
+"Without it the map is not shown."
+msgstr ""
+"در %1$s یک کلید نقشهٔ وب برای دامنهٔ این سایت بسازید (با %2$s شروع می‌شود). "
+"بدون آن نقشه نمایش داده نمی‌شود."
+
+#: includes/class-settings.php:234
+msgid "Service key (optional)"
+msgstr "کلید سرویس (اختیاری)"
+
+#: includes/class-settings.php:237
+msgid ""
+"Starts with %s. Address search is done through Neshan (used on the server "
+"only). If empty, search uses OpenStreetMap."
+msgstr ""
+"با %s شروع می‌شود. جستجوی آدرس از طریق نشان انجام می‌شود (فقط روی سرور "
+"استفاده می‌شود). اگر خالی باشد، جستجو با OpenStreetMap انجام می‌شود."
+
+#: includes/class-settings.php:239
+msgid "Map style"
+msgstr "سبک نقشه"
+
+#: includes/class-settings.php:240
+msgid "Satellite imagery sources"
+msgstr "منابع تصویر ماهواره‌ای"
+
+#: includes/class-settings.php:243
+msgid ""
+"The Neshan SDK has no satellite layer. One source per line: %s. If the first"
+" source does not load, the next one is used automatically. Empty = no "
+"satellite button. The terms of use of each source (Google in particular) are"
+" your responsibility."
+msgstr ""
+"SDK نشان لایهٔ ماهواره ندارد. هر منبع در یک خط: %s. اگر منبع اول بارگذاری "
+"نشود، منبع بعدی خودکار استفاده می‌شود. خالی = بدون دکمهٔ ماهواره. رعایت "
+"شرایط استفادهٔ هر منبع (به‌ویژه گوگل) با خود شماست."
+
+#: includes/class-settings.php:244
+msgid "name|url|subdomains|max zoom"
+msgstr "نام|آدرس|ساب‌دامنه‌ها|بیشینه زوم"
+
+#: includes/class-settings.php:245
+msgid "Air temperature source"
+msgstr "منبع دمای هوا"
+
+#: includes/class-settings.php:246
+msgid ""
+"“Current” uses the temperature at this moment and changes with the hour; "
+"“Annual average” keeps the result stable for a given point."
+msgstr ""
+"«لحظه‌ای» دمای همین لحظه را می‌گیرد و با ساعت تغییر می‌کند؛ «میانگین سالانه»"
+" نتیجه را برای یک نقطه ثابت نگه می‌دارد."
+
+#: includes/class-settings.php:247
+msgid "Current temperature"
+msgstr "دمای لحظه‌ای"
+
+#: includes/class-settings.php:247
+msgid "Annual average (more stable)"
+msgstr "میانگین سالانه (پایدارتر)"
+
+#: includes/class-settings.php:251
+msgid "Quote and letterhead"
+msgstr "پیش‌فاکتور و سربرگ"
+
+#: includes/class-settings.php:254
+msgid "Ask for name and mobile number before showing the quote"
+msgstr "قبل از نمایش پیش‌فاکتور، نام و شمارهٔ موبایل پرسیده شود"
+
+#: includes/class-settings.php:255
+msgid "Notification email for new requests"
+msgstr "ایمیل اطلاع‌رسانی درخواست‌های جدید"
+
+#: includes/class-settings.php:255
+msgid "Empty = no email is sent; requests are always saved under “Requests”."
+msgstr ""
+"خالی = ایمیلی ارسال نمی‌شود؛ درخواست‌ها همیشه در بخش «درخواست‌ها» ذخیره "
+"می‌شوند."
+
+#: includes/class-settings.php:256
+msgid "Letterhead image"
+msgstr "تصویر سربرگ"
+
+#: includes/class-settings.php:256
+msgid ""
+"Your company letterhead image (PNG or JPG). Without an image, the company "
+"name and phone are printed at the top of the quote."
+msgstr ""
+"تصویر سربرگ شرکت شما (PNG یا JPG). بدون تصویر، نام و تلفن شرکت بالای "
+"پیش‌فاکتور چاپ می‌شود."
+
+#: includes/class-settings.php:257
+msgid "Letterhead type"
+msgstr "نوع سربرگ"
+
+#: includes/class-settings.php:258
+msgid ""
+"“Top banner”: a wide image placed above the quote. “Full A4 image”: an image"
+" of a complete letterhead sheet placed behind the text; set the margins "
+"below so the text falls inside the blank area."
+msgstr ""
+"«بنر بالا»: تصویری عریض که بالای پیش‌فاکتور قرار می‌گیرد. «تصویر کامل A4»: "
+"تصویر یک برگ سربرگ کامل که پشت متن قرار می‌گیرد؛ حاشیه‌های زیر را طوری تنظیم"
+" کنید که متن داخل بخش خالی بیفتد."
+
+#: includes/class-settings.php:259
+msgid "Top banner"
+msgstr "بنر بالا"
+
+#: includes/class-settings.php:259
+msgid "Full A4 image (background)"
+msgstr "تصویر کامل A4 (پس‌زمینه)"
+
+#: includes/class-settings.php:260
+msgid "Text distance from the top of the sheet (mm) — A4 mode only"
+msgstr "فاصلهٔ متن از بالای برگه (میلی‌متر) — فقط حالت A4"
+
+#: includes/class-settings.php:261
+msgid "Text distance from the bottom of the sheet (mm) — A4 mode only"
+msgstr "فاصلهٔ متن از پایین برگه (میلی‌متر) — فقط حالت A4"
+
+#: includes/class-settings.php:262
+msgid "Footer image (optional) — banner mode only"
+msgstr "تصویر پاورقی (اختیاری) — فقط حالت بنر"
+
+#: includes/class-settings.php:263
+msgid "Company name (used when there is no letterhead)"
+msgstr "نام شرکت (وقتی سربرگ ندارید)"
+
+#: includes/class-settings.php:264
+msgid "Company phone (used when there is no letterhead)"
+msgstr "تلفن شرکت (وقتی سربرگ ندارید)"
+
+#: includes/class-settings.php:265
+msgid "Show the total cost estimate in the quote"
+msgstr "نمایش برآورد کل هزینه در پیش‌فاکتور"
+
+#: includes/class-settings.php:265
+msgid "A quote normally lists the equipment only, so this is off by default."
+msgstr ""
+"پیش‌فاکتور معمولاً فقط فهرست تجهیزات است؛ به همین دلیل پیش‌فرض خاموش است."
+
+#: includes/class-settings.php:266
+msgid "Show a disclaimer at the bottom of the quote"
+msgstr "نمایش سلب مسئولیت در پایین پیش‌فاکتور"
+
+#: includes/class-settings.php:267
+msgid "Disclaimer text"
+msgstr "متن سلب مسئولیت"
+
+#: includes/class-settings.php:267
+msgid "Leave empty to use the default text."
+msgstr "برای استفاده از متن پیش‌فرض خالی بگذارید."
+
+#: includes/class-settings.php:271
+msgid "Appearance"
+msgstr "ظاهر"
+
+#: includes/class-settings.php:274
+msgid "Tool title"
+msgstr "عنوان ابزار"
+
+#: includes/class-settings.php:275
+msgid "Text below the title"
+msgstr "متن زیر عنوان"
+
+#: includes/class-settings.php:275
+msgid ""
+"Leave the title and this text empty to use the defaults (they follow the "
+"interface language)."
+msgstr ""
+"برای استفاده از پیش‌فرض‌ها، عنوان و این متن را خالی بگذارید (از زبان رابط "
+"پیروی می‌کنند)."
+
+#: includes/class-settings.php:276
+msgid "Main color (headings and text)"
+msgstr "رنگ اصلی (عناوین و متن)"
+
+#: includes/class-settings.php:277
+msgid "Accent color (buttons)"
+msgstr "رنگ تأکید (دکمه‌ها)"
+
+#: includes/class-settings.php:278
+msgid "Load the Vazirmatn font"
+msgstr "بارگذاری فونت وزیرمتن"
+
+#: includes/class-settings.php:278
+msgid ""
+"Loaded from a CDN, and only for the Persian interface. Turn it off if your "
+"theme already has a Persian font."
+msgstr ""
+"از CDN بارگذاری می‌شود و فقط برای رابط فارسی. اگر قالب شما فونت فارسی دارد، "
+"خاموشش کنید."
+
+#: includes/class-settings.php:281
+msgid "Save settings"
+msgstr "ذخیرهٔ تنظیمات"
+
+#: includes/class-settings.php:286
+msgid "Use this image"
+msgstr "استفاده از این تصویر"
+
+#: includes/data.php:6
+msgid "copper (NYY)"
+msgstr "مس (NYY)"
+
+#: includes/data.php:7
+msgid "aluminum (NAYY)"
+msgstr "آلومینیوم (NAYY)"
+
+#: includes/template.php:8
+msgid "JavaScript must be enabled in your browser to use this tool."
+msgstr "برای استفاده از این ابزار باید جاوااسکریپت مرورگر فعال باشد."
+
+#: includes/template.php:17
+msgid "Daily price settings (site admin)"
+msgstr "تنظیمات قیمت روز (مدیر سایت)"
+
+#: includes/template.php:19
+msgid "Ground (USD per kW)"
+msgstr "زمینی (دلار بر kW)"
+
+#: includes/template.php:20
+msgid "Rooftop and shed (USD per kW)"
+msgstr "سقفی و سوله (دلار بر kW)"
+
+#: includes/template.php:22
+msgid "SATBA purchase (Toman per kWh)"
+msgstr "خرید ساتبا (تومان بر kWh)"
+
+#: includes/template.php:24
+msgid "Save prices for all visitors"
+msgstr "ذخیرهٔ قیمت‌ها برای همه بازدیدکنندگان"
+
+#: includes/template.php:33
+msgid "Mark the project location on the map"
+msgstr "محل پروژه را روی نقشه مشخص کنید"
+
+#: includes/template.php:33
+msgid "Click, drag the marker, or search for an address"
+msgstr "کلیک کنید، نشانگر را بکشید یا آدرس را جستجو کنید"
+
+#: includes/template.php:35
+msgid "Search an address or city, e.g. Yazd"
+msgstr "جستجوی آدرس یا شهر، مثلاً: یزد"
+
+#: includes/template.php:35
+msgid "Search an address or city"
+msgstr "جستجوی آدرس یا شهر"
+
+#: includes/template.php:36
+msgid "Search"
+msgstr "جستجو"
+
+#: includes/template.php:37
+msgid "My location"
+msgstr "موقعیت من"
+
+#: includes/template.php:40
+msgid "Map"
+msgstr "نقشه"
+
+#: includes/template.php:42
+msgid "If the satellite image did not load"
+msgstr "اگر تصویر ماهواره نیامد"
+
+#: includes/template.php:42
+msgid "Other satellite source"
+msgstr "منبع ماهواره دیگر"
+
+#: includes/template.php:44
+msgid "Clear boundary"
+msgstr "پاک کردن محدوده"
+
+#: includes/template.php:46
+msgid ""
+"To calculate from an area, press “Draw land or roof boundary” and click the "
+"corners of the land (at least 3 points). The area is filled in "
+"automatically."
+msgstr ""
+"برای محاسبه از روی مساحت، «رسم محدودهٔ زمین یا سقف» را بزنید و روی گوشه‌های "
+"زمین کلیک کنید (حداقل ۳ نقطه). مساحت خودکار پر می‌شود."
+
+#: includes/template.php:48
+msgid "Map for choosing the project location"
+msgstr "نقشهٔ انتخاب محل پروژه"
+
+#: includes/template.php:51
+msgid "Lat / Lng: —"
+msgstr "عرض و طول: —"
+
+#: includes/template.php:51
+msgid "Ready to calculate"
+msgstr "آمادهٔ محاسبه"
+
+#: includes/template.php:55
+msgid "Installation type and project size"
+msgstr "نوع نصب و اندازهٔ پروژه"
+
+#: includes/template.php:56
+msgid "Installation site"
+msgstr "محل نصب"
+
+#: includes/template.php:60
+msgid "Ground-mount plant (%s m² per kW)"
+msgstr "نیروگاه زمینی (%s مترمربع بر کیلووات)"
+
+#: includes/template.php:63
+msgid "Industrial shed roof (%s m² per kW)"
+msgstr "سقف سولهٔ صنعتی (%s مترمربع بر کیلووات)"
+
+#: includes/template.php:66
+msgid "Flat rooftop (%s m² per kW)"
+msgstr "پشت‌بام تخت (%s مترمربع بر کیلووات)"
+
+#: includes/template.php:69
+msgid "What should the calculation be based on?"
+msgstr "می‌خواهم بر اساس چه چیزی محاسبه شود؟"
+
+#: includes/template.php:81
+msgid "Choose the equipment"
+msgstr "انتخاب تجهیزات"
+
+#: includes/template.php:81
+msgid "If you are not sure, keep “Automatic”"
+msgstr "اگر مطمئن نیستید «خودکار» را نگه دارید"
+
+#: includes/template.php:82
+msgid "Equipment selection method"
+msgstr "روش انتخاب تجهیزات"
+
+#: includes/template.php:83
+msgid "Automatic (system suggestion)"
+msgstr "خودکار (پیشنهاد سیستم)"
+
+#: includes/template.php:84
+msgid "Manual (I choose myself)"
+msgstr "دستی (خودم انتخاب می‌کنم)"
+
+#: includes/template.php:89
+msgid "Solar panel"
+msgstr "پنل خورشیدی"
+
+#: includes/template.php:93
+msgid "Panel name and model (write anything you like)"
+msgstr "نام و مدل پنل (هر چه می‌خواهید بنویسید)"
+
+#: includes/template.php:93
+msgid "Panel name and model"
+msgstr "نام و مدل پنل"
+
+#: includes/template.php:94 includes/template.php:94
+msgid "Panel power (W)"
+msgstr "توان پنل (وات)"
+
+#: includes/template.php:94
+msgid "Other electrical specifications are assumed to be standard."
+msgstr "مشخصات الکتریکی دیگر به‌صورت استاندارد فرض می‌شود."
+
+#: includes/template.php:96 includes/template.php:147
+msgid "Inverter"
+msgstr "اینورتر"
+
+#: includes/template.php:100 includes/template.php:100
+msgid "Inverter name and model"
+msgstr "نام و مدل اینورتر"
+
+#: includes/template.php:101 includes/template.php:101
+msgid "Inverter power (kW)"
+msgstr "توان اینورتر (کیلووات)"
+
+#: includes/template.php:103
+msgid "An efficiency of %1$s%% and a %2$s V input are assumed."
+msgstr "راندمان %1$s٪ و ورودی %2$s ولت فرض می‌شود."
+
+#: includes/template.php:105
+msgid "DC cable (panel side)"
+msgstr "کابل DC (سمت پنل‌ها)"
+
+#: includes/template.php:108
+msgid "Custom cable specification"
+msgstr "مشخصات کابل دلخواه"
+
+#: includes/template.php:108
+msgid "Custom DC cable specification"
+msgstr "مشخصات کابل DC دلخواه"
+
+#: includes/template.php:109 includes/template.php:115
+msgid "Cross-section (mm²)"
+msgstr "سطح مقطع (mm²)"
+
+#: includes/template.php:109
+msgid "DC cable cross-section"
+msgstr "سطح مقطع کابل DC"
+
+#: includes/template.php:109 includes/template.php:115
+msgid "The voltage drop is calculated with the nearest size in the table."
+msgstr "افت ولتاژ با نزدیک‌ترین سایز جدول حساب می‌شود."
+
+#: includes/template.php:111
+msgid "AC cable (inverter output)"
+msgstr "کابل AC (خروجی اینورتر)"
+
+#: includes/template.php:114
+msgid "Custom cable specification (copper or aluminum)"
+msgstr "مشخصات کابل دلخواه (مس یا آلومینیوم)"
+
+#: includes/template.php:114
+msgid "Custom AC cable specification"
+msgstr "مشخصات کابل AC دلخواه"
+
+#: includes/template.php:115
+msgid "AC cable cross-section"
+msgstr "سطح مقطع کابل AC"
+
+#: includes/template.php:117
+msgid "Your notes or special requests"
+msgstr "توضیحات یا خواسته‌های خاص شما"
+
+#: includes/template.php:118
+msgid ""
+"E.g. a specific brand, cable route length, special installation conditions… "
+"(included in the quote)"
+msgstr ""
+"مثلاً: برند خاص، طول مسیر کابل، شرایط ویژهٔ نصب… (در پیش‌فاکتور درج می‌شود)"
+
+#: includes/template.php:127
+msgid "Panel / inverter capacity"
+msgstr "ظرفیت پنل‌ها / اینورتر"
+
+#: includes/template.php:128
+msgid "Total project cost"
+msgstr "هزینهٔ کل پروژه"
+
+#: includes/template.php:131
+msgid "Payback"
+msgstr "بازگشت سرمایه"
+
+#: includes/template.php:132
+msgid "Tilt angle"
+msgstr "زاویهٔ نصب"
+
+#: includes/template.php:133
+msgid "Annual irradiation"
+msgstr "تابش سالانه"
+
+#: includes/template.php:134
+msgid "Performance ratio (PR)"
+msgstr "راندمان (PR)"
+
+#: includes/template.php:139
+msgid "Why this equipment?"
+msgstr "چرا این تجهیزات؟"
+
+#: includes/template.php:144
+msgid "Technical specifications"
+msgstr "مشخصات فنی"
+
+#: includes/template.php:146
+msgid "Panel and string layout"
+msgstr "پنل و آرایش رشته‌ها"
+
+#: includes/template.php:148
+msgid "Transformer"
+msgstr "ترانسفورماتور"
+
+#: includes/template.php:149
+msgid "DC-to-AC ratio"
+msgstr "ضریب DC به AC"
+
+#: includes/template.php:151
+msgid "Allowed overload up to %s"
+msgstr "اورلود مجاز تا %s"
+
+#: includes/template.php:154
+msgid "DC cable"
+msgstr "کابل DC"
+
+#: includes/template.php:155
+msgid "DC voltage drop and length"
+msgstr "افت ولتاژ و متراژ DC"
+
+#: includes/template.php:156
+msgid "AC cable"
+msgstr "کابل AC"
+
+#: includes/template.php:157
+msgid "AC voltage drop and length"
+msgstr "افت ولتاژ و متراژ AC"
+
+#: includes/template.php:162
+msgid "Revenue and payback"
+msgstr "درآمد و بازگشت سرمایه"
+
+#: includes/template.php:164
+msgid "First-year revenue, SATBA guaranteed purchase"
+msgstr "درآمد سال اول، خرید تضمینی ساتبا"
+
+#: includes/template.php:165
+msgid "First-year revenue, energy-exchange green board"
+msgstr "درآمد سال اول، تابلو سبز بورس انرژی"
+
+#: includes/template.php:167
+msgid "Get the equipment list and quote"
+msgstr "دریافت جدول ریز تجهیزات و پیش‌فاکتور"
+
+#: includes/template.php:175
+msgid "Print or save as PDF"
+msgstr "چاپ یا ذخیره PDF"
+
+#: includes/template.php:180
+msgid "Issue quote"
+msgstr "صدور پیش‌فاکتور"
+
+#: includes/template.php:182
+msgid "Full name"
+msgstr "نام و نام خانوادگی"
+
+#: includes/template.php:182
+msgid "e.g. Eng. Rezaei"
+msgstr "مثلاً: مهندس رضایی"
+
+#: includes/template.php:183
+msgid "Company or organization"
+msgstr "نام شرکت یا مجموعه"
+
+#: includes/template.php:184
+msgid "Mobile number"
+msgstr "شمارهٔ موبایل"
+
+#: includes/template.php:187
+msgid "Cancel"
+msgstr "انصراف"

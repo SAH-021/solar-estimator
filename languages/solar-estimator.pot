@@ -1,0 +1,1322 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Solar Estimator 2.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-13 00:00+0000\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: solar-estimator\n"
+
+#. Plugin header (solar-estimator.php)
+#: solar-estimator.php:0
+msgid "Solar Estimator & Quote System"
+msgstr ""
+
+#. Plugin header (solar-estimator.php)
+#: solar-estimator.php:0
+msgid ""
+"Solar power plant design and quote system with the Neshan map: automatic or "
+"manual selection of panels, inverters and cables, cost and payback estimate,"
+" customer lead capture and a quote with your company letterhead. Bilingual "
+"(Persian / English). Shortcode: [solar_estimator]"
+msgstr ""
+
+#: includes/class-frontend.php:33
+msgid "billion Toman"
+msgstr ""
+
+#: includes/class-frontend.php:33
+msgid "million Toman"
+msgstr ""
+
+#: includes/class-frontend.php:35
+msgid "✍️ Other (I’ll type it myself)"
+msgstr ""
+
+#: includes/class-frontend.php:35
+msgid "Automatic (recommended)"
+msgstr ""
+
+#: includes/class-frontend.php:36 includes/template.php:86
+msgid ""
+"In automatic mode the panel, inverter and cables are chosen from the "
+"installation type and capacity. The reason for each choice is shown in the "
+"results."
+msgstr ""
+
+#: includes/class-frontend.php:37
+msgid ""
+"Choose each item from the list. If your model is not listed, pick “Other” "
+"and type it yourself. Results update instantly."
+msgstr ""
+
+#: includes/class-frontend.php:38 includes/template.php:74
+msgid "Available area (m²)"
+msgstr ""
+
+#: includes/class-frontend.php:38
+msgid "Target capacity (kW)"
+msgstr ""
+
+#: includes/class-frontend.php:40
+msgid "The Neshan map key has not been entered."
+msgstr ""
+
+#: includes/class-frontend.php:41
+msgid ""
+"Add the Web key in the {link}. Until then, visitors calculate without a map,"
+" using the default location."
+msgstr ""
+
+#: includes/class-frontend.php:42
+msgid "plugin settings"
+msgstr ""
+
+#: includes/class-frontend.php:43
+msgid ""
+"The map is temporarily unavailable; the calculation uses the country’s "
+"average irradiation."
+msgstr ""
+
+#: includes/class-frontend.php:44
+msgid ""
+"The map could not be loaded. Check your internet connection; the rest of the"
+" calculation still works."
+msgstr ""
+
+#: includes/class-frontend.php:45
+msgid "The Neshan map failed to start."
+msgstr ""
+
+#: includes/class-frontend.php:46
+msgid "Project location"
+msgstr ""
+
+#: includes/class-frontend.php:47
+msgid "Satellite source changed: {name}"
+msgstr ""
+
+#: includes/class-frontend.php:48
+msgid ""
+"Satellite imagery does not load on your network; it may be filtered and need"
+" a VPN"
+msgstr ""
+
+#: includes/class-frontend.php:49
+msgid "Imagery: {name}"
+msgstr ""
+
+#: includes/class-frontend.php:49
+msgid "Satellite source: {name}"
+msgstr ""
+
+#: includes/class-frontend.php:51
+msgid "Lat: {lat}°  Lng: {lng}°"
+msgstr ""
+
+#: includes/class-frontend.php:52
+msgid "Fetching climate data…"
+msgstr ""
+
+#: includes/class-frontend.php:52
+msgid "Climate data updated ✓"
+msgstr ""
+
+#: includes/class-frontend.php:52
+msgid "Irradiation atlas used ✓"
+msgstr ""
+
+#: includes/class-frontend.php:53
+msgid "Your browser does not support geolocation"
+msgstr ""
+
+#: includes/class-frontend.php:53
+msgid "Location permission was not granted"
+msgstr ""
+
+#: includes/class-frontend.php:54
+msgid "Searching…"
+msgstr ""
+
+#: includes/class-frontend.php:54
+msgid "Place not found"
+msgstr ""
+
+#: includes/class-frontend.php:54
+msgid "Search is unavailable; click on the map instead"
+msgstr ""
+
+#: includes/class-frontend.php:55 includes/template.php:43
+msgid "Draw land or roof boundary"
+msgstr ""
+
+#: includes/class-frontend.php:56
+msgid "Drawing: click the corners (press again to finish)"
+msgstr ""
+
+#: includes/class-frontend.php:57
+msgid ""
+"Boundary area: {area} m². When you are done, press the draw button again."
+msgstr ""
+
+#: includes/class-frontend.php:59
+msgid "Enter a positive number."
+msgstr ""
+
+#: includes/class-frontend.php:60
+msgid "DC cable: {dc} and AC cable: {ac}"
+msgstr ""
+
+#: includes/class-frontend.php:61
+msgid ""
+"DC cable size {dc} and, for the AC side, the economical cable {ac} were "
+"selected."
+msgstr ""
+
+#: includes/class-frontend.php:62
+msgid "{kw} kW | input up to {v} V | efficiency {eff}%"
+msgstr ""
+
+#: includes/class-frontend.php:63
+msgid "1 transformer, {kva}"
+msgstr ""
+
+#: includes/class-frontend.php:63
+msgid "Not required (low-voltage connection)"
+msgstr ""
+
+#: includes/class-frontend.php:64
+msgid "Inverter: {kw}"
+msgstr ""
+
+#: includes/class-frontend.php:64
+msgid "Annual generation: {mwh} MWh"
+msgstr ""
+
+#: includes/class-frontend.php:65
+msgid "{usd} ({rate} Toman per USD)"
+msgstr ""
+
+#: includes/class-frontend.php:65
+msgid "{min} to {max} years"
+msgstr ""
+
+#: includes/class-frontend.php:65
+msgid "{n} degrees"
+msgstr ""
+
+#: includes/class-frontend.php:66
+msgid "{n} × {w}"
+msgstr ""
+
+#: includes/class-frontend.php:66
+msgid "{n} strings of {ser} | string voltage {v}"
+msgstr ""
+
+#: includes/class-frontend.php:67
+msgid "{n} × {kw}"
+msgstr ""
+
+#: includes/class-frontend.php:67
+msgid "{brand} | efficiency {eff}"
+msgstr ""
+
+#: includes/class-frontend.php:68
+msgid "Total AC current {a} | main breaker {b}"
+msgstr ""
+
+#: includes/class-frontend.php:69
+msgid "Allowed"
+msgstr ""
+
+#: includes/class-frontend.php:69
+msgid "Out of limit ({max})"
+msgstr ""
+
+#: includes/class-frontend.php:69
+msgid "max {pct}%"
+msgstr ""
+
+#: includes/class-frontend.php:70
+msgid "Drop: {drop} {status} | {m} m (run per string {len} m)"
+msgstr ""
+
+#: includes/class-frontend.php:71
+msgid "Current per inverter {a} | Drop: {drop} {status} | {m} m"
+msgstr ""
+
+#: includes/class-frontend.php:73
+msgid "Custom"
+msgstr ""
+
+#: includes/class-frontend.php:73
+msgid "Custom panel {w}W"
+msgstr ""
+
+#: includes/class-frontend.php:73
+msgid "Custom inverter {kw}kW"
+msgstr ""
+
+#: includes/class-frontend.php:74
+msgid "Custom DC cable"
+msgstr ""
+
+#: includes/class-frontend.php:74
+msgid "Custom AC cable"
+msgstr ""
+
+#: includes/class-frontend.php:74
+msgid "calculated with {label}"
+msgstr ""
+
+#: includes/class-frontend.php:75
+msgid "You entered the panel {name} yourself (power {w} W)."
+msgstr ""
+
+#: includes/class-frontend.php:76
+msgid "You selected the panel {name}."
+msgstr ""
+
+#: includes/class-frontend.php:77
+msgid ""
+"For a shed roof or flat rooftop with a compact factor of {area} m² per kW, "
+"the panel {name} was selected."
+msgstr ""
+
+#: includes/class-frontend.php:78
+msgid ""
+"For a ground-mount plant with a factor of {area} m² per kW, the high-power "
+"panel {name} was selected."
+msgstr ""
+
+#: includes/class-frontend.php:79
+msgid "You entered the inverter {name} yourself (power {kw} kW)."
+msgstr ""
+
+#: includes/class-frontend.php:80
+msgid "You selected the inverter {name}."
+msgstr ""
+
+#: includes/class-frontend.php:81
+msgid ""
+"For a capacity of {kwp} kWp, the inverter {name} with a standard overload "
+"ratio was selected."
+msgstr ""
+
+#: includes/class-frontend.php:83
+msgid "Solar module"
+msgstr ""
+
+#: includes/class-frontend.php:83
+msgid "Grid-tied inverter"
+msgstr ""
+
+#: includes/class-frontend.php:83
+msgid "Mounting structure"
+msgstr ""
+
+#: includes/class-frontend.php:84
+msgid "Earthing and lightning protection"
+msgstr ""
+
+#: includes/class-frontend.php:84
+msgid "Engineering, installation and commissioning"
+msgstr ""
+
+#: includes/class-frontend.php:84
+msgid "Client notes"
+msgstr ""
+
+#: includes/class-frontend.php:85
+msgid "{n} pcs — {name}"
+msgstr ""
+
+#: includes/class-frontend.php:85
+msgid "{n} unit(s) — {name}"
+msgstr ""
+
+#: includes/class-frontend.php:86
+msgid "Equivalent to {kwp} kWp, hot-dip galvanized"
+msgstr ""
+
+#: includes/class-frontend.php:87
+msgid "1 complete standard set"
+msgstr ""
+
+#: includes/class-frontend.php:87
+msgid "Execution, testing and grid hand-over"
+msgstr ""
+
+#: includes/class-frontend.php:88
+msgid "Client: {name} | Company: {company} | Phone: {phone} | Date: {date}"
+msgstr ""
+
+#: includes/class-frontend.php:89
+msgid "Date: {date}"
+msgstr ""
+
+#: includes/class-frontend.php:89
+msgid "Not provided"
+msgstr ""
+
+#: includes/class-frontend.php:89
+msgid "Phone: {phone}"
+msgstr ""
+
+#: includes/class-frontend.php:90 includes/template.php:173
+msgid "Quote and equipment list"
+msgstr ""
+
+#: includes/class-frontend.php:90
+msgid "No."
+msgstr ""
+
+#: includes/class-frontend.php:90
+msgid "Description"
+msgstr ""
+
+#: includes/class-frontend.php:90
+msgid "Quantity and specifications"
+msgstr ""
+
+#: includes/class-frontend.php:91
+msgid "Estimated total construction cost: {cost} (about {usd})"
+msgstr ""
+
+#: includes/class-frontend.php:92
+msgid "Letterhead"
+msgstr ""
+
+#: includes/class-frontend.php:92
+msgid "Quote"
+msgstr ""
+
+#: includes/class-frontend.php:94
+msgid "Please enter your full name."
+msgstr ""
+
+#: includes/class-frontend.php:94
+msgid "The mobile number is not valid, e.g. 09121234567"
+msgstr ""
+
+#: includes/class-frontend.php:95
+msgid "Submitting…"
+msgstr ""
+
+#: includes/class-frontend.php:95 includes/template.php:187
+msgid "Confirm and issue"
+msgstr ""
+
+#: includes/class-frontend.php:96
+msgid "Submission failed; please try again."
+msgstr ""
+
+#: includes/class-frontend.php:96
+msgid "Could not reach the server; check your internet connection."
+msgstr ""
+
+#: includes/class-frontend.php:98
+msgid "Saving…"
+msgstr ""
+
+#: includes/class-frontend.php:98
+msgid "Saved ✓"
+msgstr ""
+
+#: includes/class-frontend.php:98
+msgid "Could not save."
+msgstr ""
+
+#: includes/class-frontend.php:98
+msgid "Could not reach the server."
+msgstr ""
+
+#: includes/class-leads.php:14
+msgid "Estimate details"
+msgstr ""
+
+#: includes/class-leads.php:20
+msgid "Approximate address"
+msgstr ""
+
+#: includes/class-leads.php:20
+msgid "Coordinates"
+msgstr ""
+
+#: includes/class-leads.php:21
+msgid "Installation type"
+msgstr ""
+
+#: includes/class-leads.php:21
+msgid "Input basis"
+msgstr ""
+
+#: includes/class-leads.php:22
+msgid "Input value"
+msgstr ""
+
+#: includes/class-leads.php:22 includes/class-leads.php:168
+#: includes/template.php:71
+msgid "Area (m²)"
+msgstr ""
+
+#: includes/class-leads.php:23
+msgid "Panel capacity (kWp)"
+msgstr ""
+
+#: includes/class-leads.php:23
+msgid "Inverter capacity (kW)"
+msgstr ""
+
+#: includes/class-leads.php:24
+msgid "Number of panels"
+msgstr ""
+
+#: includes/class-leads.php:24
+msgid "Panel model"
+msgstr ""
+
+#: includes/class-leads.php:25
+msgid "Number of inverters"
+msgstr ""
+
+#: includes/class-leads.php:25
+msgid "Inverter model"
+msgstr ""
+
+#: includes/class-leads.php:26
+msgid "Applicant’s notes"
+msgstr ""
+
+#: includes/class-leads.php:27
+msgid "Construction cost (million Toman)"
+msgstr ""
+
+#: includes/class-leads.php:27
+msgid "Construction cost (USD)"
+msgstr ""
+
+#: includes/class-leads.php:28
+msgid "Annual generation (MWh)"
+msgstr ""
+
+#: includes/class-leads.php:28
+msgid "Payback (years)"
+msgstr ""
+
+#: includes/class-leads.php:34
+msgid "Ground-mount"
+msgstr ""
+
+#: includes/class-leads.php:35
+msgid "Shed roof"
+msgstr ""
+
+#: includes/class-leads.php:36
+msgid "Flat rooftop"
+msgstr ""
+
+#: includes/class-leads.php:45
+msgid "Solar plant requests"
+msgstr ""
+
+#: includes/class-leads.php:45
+msgid "Request"
+msgstr ""
+
+#: includes/class-leads.php:46
+msgid "Solar Estimator"
+msgstr ""
+
+#: includes/class-leads.php:46
+msgid "Requests"
+msgstr ""
+
+#: includes/class-leads.php:47
+msgid "View request"
+msgstr ""
+
+#: includes/class-leads.php:47
+msgid "Search requests"
+msgstr ""
+
+#: includes/class-leads.php:48
+msgid "No requests yet."
+msgstr ""
+
+#: includes/class-leads.php:100
+msgid "Name: %s"
+msgstr ""
+
+#: includes/class-leads.php:102
+msgid "Company: %s"
+msgstr ""
+
+#: includes/class-leads.php:104
+msgid "Mobile: %s"
+msgstr ""
+
+#: includes/class-leads.php:107
+msgid "Installation type: %s"
+msgstr ""
+
+#: includes/class-leads.php:109
+msgid "Capacity: %s kWp"
+msgstr ""
+
+#: includes/class-leads.php:111
+msgid "Construction cost: %s"
+msgstr ""
+
+#: includes/class-leads.php:111 includes/class-leads.php:142
+msgid "%s million Toman"
+msgstr ""
+
+#: includes/class-leads.php:113
+msgid "Address: %s"
+msgstr ""
+
+#: includes/class-leads.php:116
+msgid "Map: %s"
+msgstr ""
+
+#: includes/class-leads.php:121
+msgid "View in admin: %s"
+msgstr ""
+
+#: includes/class-leads.php:126
+msgid "New solar plant estimate request — %s"
+msgstr ""
+
+#: includes/class-leads.php:133 includes/class-leads.php:149
+msgid "Applicant"
+msgstr ""
+
+#: includes/class-leads.php:133 includes/class-leads.php:150
+msgid "Mobile"
+msgstr ""
+
+#: includes/class-leads.php:134
+msgid "Capacity"
+msgstr ""
+
+#: includes/class-leads.php:134
+msgid "Construction cost"
+msgstr ""
+
+#: includes/class-leads.php:134
+msgid "Date"
+msgstr ""
+
+#: includes/class-leads.php:161
+msgid "%1$s to %2$s"
+msgstr ""
+
+#: includes/class-leads.php:168 includes/template.php:72
+msgid "Capacity (kW)"
+msgstr ""
+
+#: includes/class-leads.php:173
+msgid ""
+"The numbers were calculated in the customer’s browser and sent over; they "
+"are useful for sales follow-up, not as a binding document."
+msgstr ""
+
+#: includes/class-rest.php:38
+msgid "The Neshan service key is not set."
+msgstr ""
+
+#: includes/class-rest.php:40
+msgid "Could not connect to the Neshan service."
+msgstr ""
+
+#: includes/class-rest.php:42
+msgid "The Neshan service did not return a valid response."
+msgstr ""
+
+#: includes/class-rest.php:50
+msgid "Too many searches; please wait a moment."
+msgstr ""
+
+#: includes/class-rest.php:78
+msgid "All prices must be positive numbers."
+msgstr ""
+
+#: includes/class-rest.php:90
+msgid "Too many requests from you; please try again later."
+msgstr ""
+
+#: includes/class-rest.php:95
+msgid "Please enter your name."
+msgstr ""
+
+#: includes/class-rest.php:96
+msgid "The mobile number is not valid (e.g. 09121234567)."
+msgstr ""
+
+#: includes/class-rest.php:99
+msgid "Could not save the request; please try again."
+msgstr ""
+
+#: includes/class-settings.php:17
+msgid "Standard (day) — recommended"
+msgstr ""
+
+#: includes/class-settings.php:18
+msgid "Neshan classic"
+msgstr ""
+
+#: includes/class-settings.php:19
+msgid "Dreamy"
+msgstr ""
+
+#: includes/class-settings.php:20
+msgid "Dreamy gold"
+msgstr ""
+
+#: includes/class-settings.php:22
+msgid "Standard (night)"
+msgstr ""
+
+#: includes/class-settings.php:30
+msgid "Solar Power Plant Design & Quote System"
+msgstr ""
+
+#: includes/class-settings.php:32
+msgid ""
+"Pin the location on the map, enter an area or a capacity, and the panels, "
+"inverters and cables are calculated for you."
+msgstr ""
+
+#: includes/class-settings.php:34
+msgid ""
+"This document is a preliminary estimate and does not replace a final "
+"quotation; the final price is set after a technical site visit."
+msgstr ""
+
+#: includes/class-settings.php:82 includes/template.php:41
+msgid "Satellite"
+msgstr ""
+
+#: includes/class-settings.php:88 includes/class-settings.php:196
+msgid "Solar Estimator settings"
+msgstr ""
+
+#: includes/class-settings.php:88
+msgid "Settings"
+msgstr ""
+
+#: includes/class-settings.php:162
+msgid "Enabled"
+msgstr ""
+
+#: includes/class-settings.php:177
+msgid "Choose or upload image"
+msgstr ""
+
+#: includes/class-settings.php:178
+msgid "Remove image"
+msgstr ""
+
+#: includes/class-settings.php:197
+msgid "Shortcode:"
+msgstr ""
+
+#: includes/class-settings.php:198
+msgid "Force a language on one page:"
+msgstr ""
+
+#: includes/class-settings.php:203
+msgid "Language"
+msgstr ""
+
+#: includes/class-settings.php:206
+msgid "Interface language"
+msgstr ""
+
+#: includes/class-settings.php:207
+msgid ""
+"Applies to these admin screens and to the tool on your site. “Automatic” "
+"follows the site language. A single page can override it with the lang "
+"attribute of the shortcode."
+msgstr ""
+
+#: includes/class-settings.php:208
+msgid "Automatic (follow the site language)"
+msgstr ""
+
+#: includes/class-settings.php:212
+msgid "Daily prices and revenue"
+msgstr ""
+
+#: includes/class-settings.php:215
+msgid "Ground-mount plant (USD per kW)"
+msgstr ""
+
+#: includes/class-settings.php:216
+msgid "Shed roof and flat rooftop (USD per kW)"
+msgstr ""
+
+#: includes/class-settings.php:217 includes/template.php:21
+msgid "USD rate (Toman)"
+msgstr ""
+
+#: includes/class-settings.php:217
+msgid ""
+"The site admin can also change these four values directly from the top of "
+"the tool itself (while logged in)."
+msgstr ""
+
+#: includes/class-settings.php:218
+msgid "SATBA guaranteed purchase (Toman per kWh)"
+msgstr ""
+
+#: includes/class-settings.php:219
+msgid "Energy-exchange green board multiplier relative to SATBA"
+msgstr ""
+
+#: includes/class-settings.php:219
+msgid "Default is 1.3."
+msgstr ""
+
+#: includes/class-settings.php:220
+msgid "Annual generation adjustment factor"
+msgstr ""
+
+#: includes/class-settings.php:220
+msgid ""
+"The default 1 means no change. For a more conservative estimate use, for "
+"example, 0.9."
+msgstr ""
+
+#: includes/class-settings.php:221
+msgid "Area needed per kW — ground-mount (m²)"
+msgstr ""
+
+#: includes/class-settings.php:222
+msgid "Area needed per kW — shed roof and rooftop (m²)"
+msgstr ""
+
+#: includes/class-settings.php:226
+msgid "Neshan map"
+msgstr ""
+
+#: includes/class-settings.php:229
+msgid "Map key (Web)"
+msgstr ""
+
+#: includes/class-settings.php:232
+msgid ""
+"Create a Web map key for this site’s domain at %1$s (it starts with %2$s). "
+"Without it the map is not shown."
+msgstr ""
+
+#: includes/class-settings.php:234
+msgid "Service key (optional)"
+msgstr ""
+
+#: includes/class-settings.php:237
+msgid ""
+"Starts with %s. Address search is done through Neshan (used on the server "
+"only). If empty, search uses OpenStreetMap."
+msgstr ""
+
+#: includes/class-settings.php:239
+msgid "Map style"
+msgstr ""
+
+#: includes/class-settings.php:240
+msgid "Satellite imagery sources"
+msgstr ""
+
+#: includes/class-settings.php:243
+msgid ""
+"The Neshan SDK has no satellite layer. One source per line: %s. If the first"
+" source does not load, the next one is used automatically. Empty = no "
+"satellite button. The terms of use of each source (Google in particular) are"
+" your responsibility."
+msgstr ""
+
+#: includes/class-settings.php:244
+msgid "name|url|subdomains|max zoom"
+msgstr ""
+
+#: includes/class-settings.php:245
+msgid "Air temperature source"
+msgstr ""
+
+#: includes/class-settings.php:246
+msgid ""
+"“Current” uses the temperature at this moment and changes with the hour; "
+"“Annual average” keeps the result stable for a given point."
+msgstr ""
+
+#: includes/class-settings.php:247
+msgid "Current temperature"
+msgstr ""
+
+#: includes/class-settings.php:247
+msgid "Annual average (more stable)"
+msgstr ""
+
+#: includes/class-settings.php:251
+msgid "Quote and letterhead"
+msgstr ""
+
+#: includes/class-settings.php:254
+msgid "Ask for name and mobile number before showing the quote"
+msgstr ""
+
+#: includes/class-settings.php:255
+msgid "Notification email for new requests"
+msgstr ""
+
+#: includes/class-settings.php:255
+msgid "Empty = no email is sent; requests are always saved under “Requests”."
+msgstr ""
+
+#: includes/class-settings.php:256
+msgid "Letterhead image"
+msgstr ""
+
+#: includes/class-settings.php:256
+msgid ""
+"Your company letterhead image (PNG or JPG). Without an image, the company "
+"name and phone are printed at the top of the quote."
+msgstr ""
+
+#: includes/class-settings.php:257
+msgid "Letterhead type"
+msgstr ""
+
+#: includes/class-settings.php:258
+msgid ""
+"“Top banner”: a wide image placed above the quote. “Full A4 image”: an image"
+" of a complete letterhead sheet placed behind the text; set the margins "
+"below so the text falls inside the blank area."
+msgstr ""
+
+#: includes/class-settings.php:259
+msgid "Top banner"
+msgstr ""
+
+#: includes/class-settings.php:259
+msgid "Full A4 image (background)"
+msgstr ""
+
+#: includes/class-settings.php:260
+msgid "Text distance from the top of the sheet (mm) — A4 mode only"
+msgstr ""
+
+#: includes/class-settings.php:261
+msgid "Text distance from the bottom of the sheet (mm) — A4 mode only"
+msgstr ""
+
+#: includes/class-settings.php:262
+msgid "Footer image (optional) — banner mode only"
+msgstr ""
+
+#: includes/class-settings.php:263
+msgid "Company name (used when there is no letterhead)"
+msgstr ""
+
+#: includes/class-settings.php:264
+msgid "Company phone (used when there is no letterhead)"
+msgstr ""
+
+#: includes/class-settings.php:265
+msgid "Show the total cost estimate in the quote"
+msgstr ""
+
+#: includes/class-settings.php:265
+msgid "A quote normally lists the equipment only, so this is off by default."
+msgstr ""
+
+#: includes/class-settings.php:266
+msgid "Show a disclaimer at the bottom of the quote"
+msgstr ""
+
+#: includes/class-settings.php:267
+msgid "Disclaimer text"
+msgstr ""
+
+#: includes/class-settings.php:267
+msgid "Leave empty to use the default text."
+msgstr ""
+
+#: includes/class-settings.php:271
+msgid "Appearance"
+msgstr ""
+
+#: includes/class-settings.php:274
+msgid "Tool title"
+msgstr ""
+
+#: includes/class-settings.php:275
+msgid "Text below the title"
+msgstr ""
+
+#: includes/class-settings.php:275
+msgid ""
+"Leave the title and this text empty to use the defaults (they follow the "
+"interface language)."
+msgstr ""
+
+#: includes/class-settings.php:276
+msgid "Main color (headings and text)"
+msgstr ""
+
+#: includes/class-settings.php:277
+msgid "Accent color (buttons)"
+msgstr ""
+
+#: includes/class-settings.php:278
+msgid "Load the Vazirmatn font"
+msgstr ""
+
+#: includes/class-settings.php:278
+msgid ""
+"Loaded from a CDN, and only for the Persian interface. Turn it off if your "
+"theme already has a Persian font."
+msgstr ""
+
+#: includes/class-settings.php:281
+msgid "Save settings"
+msgstr ""
+
+#: includes/class-settings.php:286
+msgid "Use this image"
+msgstr ""
+
+#: includes/data.php:6
+msgid "copper (NYY)"
+msgstr ""
+
+#: includes/data.php:7
+msgid "aluminum (NAYY)"
+msgstr ""
+
+#: includes/template.php:8
+msgid "JavaScript must be enabled in your browser to use this tool."
+msgstr ""
+
+#: includes/template.php:17
+msgid "Daily price settings (site admin)"
+msgstr ""
+
+#: includes/template.php:19
+msgid "Ground (USD per kW)"
+msgstr ""
+
+#: includes/template.php:20
+msgid "Rooftop and shed (USD per kW)"
+msgstr ""
+
+#: includes/template.php:22
+msgid "SATBA purchase (Toman per kWh)"
+msgstr ""
+
+#: includes/template.php:24
+msgid "Save prices for all visitors"
+msgstr ""
+
+#: includes/template.php:33
+msgid "Mark the project location on the map"
+msgstr ""
+
+#: includes/template.php:33
+msgid "Click, drag the marker, or search for an address"
+msgstr ""
+
+#: includes/template.php:35
+msgid "Search an address or city, e.g. Yazd"
+msgstr ""
+
+#: includes/template.php:35
+msgid "Search an address or city"
+msgstr ""
+
+#: includes/template.php:36
+msgid "Search"
+msgstr ""
+
+#: includes/template.php:37
+msgid "My location"
+msgstr ""
+
+#: includes/template.php:40
+msgid "Map"
+msgstr ""
+
+#: includes/template.php:42
+msgid "If the satellite image did not load"
+msgstr ""
+
+#: includes/template.php:42
+msgid "Other satellite source"
+msgstr ""
+
+#: includes/template.php:44
+msgid "Clear boundary"
+msgstr ""
+
+#: includes/template.php:46
+msgid ""
+"To calculate from an area, press “Draw land or roof boundary” and click the "
+"corners of the land (at least 3 points). The area is filled in "
+"automatically."
+msgstr ""
+
+#: includes/template.php:48
+msgid "Map for choosing the project location"
+msgstr ""
+
+#: includes/template.php:51
+msgid "Lat / Lng: —"
+msgstr ""
+
+#: includes/template.php:51
+msgid "Ready to calculate"
+msgstr ""
+
+#: includes/template.php:55
+msgid "Installation type and project size"
+msgstr ""
+
+#: includes/template.php:56
+msgid "Installation site"
+msgstr ""
+
+#: includes/template.php:60
+msgid "Ground-mount plant (%s m² per kW)"
+msgstr ""
+
+#: includes/template.php:63
+msgid "Industrial shed roof (%s m² per kW)"
+msgstr ""
+
+#: includes/template.php:66
+msgid "Flat rooftop (%s m² per kW)"
+msgstr ""
+
+#: includes/template.php:69
+msgid "What should the calculation be based on?"
+msgstr ""
+
+#: includes/template.php:81
+msgid "Choose the equipment"
+msgstr ""
+
+#: includes/template.php:81
+msgid "If you are not sure, keep “Automatic”"
+msgstr ""
+
+#: includes/template.php:82
+msgid "Equipment selection method"
+msgstr ""
+
+#: includes/template.php:83
+msgid "Automatic (system suggestion)"
+msgstr ""
+
+#: includes/template.php:84
+msgid "Manual (I choose myself)"
+msgstr ""
+
+#: includes/template.php:89
+msgid "Solar panel"
+msgstr ""
+
+#: includes/template.php:93
+msgid "Panel name and model (write anything you like)"
+msgstr ""
+
+#: includes/template.php:93
+msgid "Panel name and model"
+msgstr ""
+
+#: includes/template.php:94 includes/template.php:94
+msgid "Panel power (W)"
+msgstr ""
+
+#: includes/template.php:94
+msgid "Other electrical specifications are assumed to be standard."
+msgstr ""
+
+#: includes/template.php:96 includes/template.php:147
+msgid "Inverter"
+msgstr ""
+
+#: includes/template.php:100 includes/template.php:100
+msgid "Inverter name and model"
+msgstr ""
+
+#: includes/template.php:101 includes/template.php:101
+msgid "Inverter power (kW)"
+msgstr ""
+
+#: includes/template.php:103
+msgid "An efficiency of %1$s%% and a %2$s V input are assumed."
+msgstr ""
+
+#: includes/template.php:105
+msgid "DC cable (panel side)"
+msgstr ""
+
+#: includes/template.php:108
+msgid "Custom cable specification"
+msgstr ""
+
+#: includes/template.php:108
+msgid "Custom DC cable specification"
+msgstr ""
+
+#: includes/template.php:109 includes/template.php:115
+msgid "Cross-section (mm²)"
+msgstr ""
+
+#: includes/template.php:109
+msgid "DC cable cross-section"
+msgstr ""
+
+#: includes/template.php:109 includes/template.php:115
+msgid "The voltage drop is calculated with the nearest size in the table."
+msgstr ""
+
+#: includes/template.php:111
+msgid "AC cable (inverter output)"
+msgstr ""
+
+#: includes/template.php:114
+msgid "Custom cable specification (copper or aluminum)"
+msgstr ""
+
+#: includes/template.php:114
+msgid "Custom AC cable specification"
+msgstr ""
+
+#: includes/template.php:115
+msgid "AC cable cross-section"
+msgstr ""
+
+#: includes/template.php:117
+msgid "Your notes or special requests"
+msgstr ""
+
+#: includes/template.php:118
+msgid ""
+"E.g. a specific brand, cable route length, special installation conditions… "
+"(included in the quote)"
+msgstr ""
+
+#: includes/template.php:127
+msgid "Panel / inverter capacity"
+msgstr ""
+
+#: includes/template.php:128
+msgid "Total project cost"
+msgstr ""
+
+#: includes/template.php:131
+msgid "Payback"
+msgstr ""
+
+#: includes/template.php:132
+msgid "Tilt angle"
+msgstr ""
+
+#: includes/template.php:133
+msgid "Annual irradiation"
+msgstr ""
+
+#: includes/template.php:134
+msgid "Performance ratio (PR)"
+msgstr ""
+
+#: includes/template.php:139
+msgid "Why this equipment?"
+msgstr ""
+
+#: includes/template.php:144
+msgid "Technical specifications"
+msgstr ""
+
+#: includes/template.php:146
+msgid "Panel and string layout"
+msgstr ""
+
+#: includes/template.php:148
+msgid "Transformer"
+msgstr ""
+
+#: includes/template.php:149
+msgid "DC-to-AC ratio"
+msgstr ""
+
+#: includes/template.php:151
+msgid "Allowed overload up to %s"
+msgstr ""
+
+#: includes/template.php:154
+msgid "DC cable"
+msgstr ""
+
+#: includes/template.php:155
+msgid "DC voltage drop and length"
+msgstr ""
+
+#: includes/template.php:156
+msgid "AC cable"
+msgstr ""
+
+#: includes/template.php:157
+msgid "AC voltage drop and length"
+msgstr ""
+
+#: includes/template.php:162
+msgid "Revenue and payback"
+msgstr ""
+
+#: includes/template.php:164
+msgid "First-year revenue, SATBA guaranteed purchase"
+msgstr ""
+
+#: includes/template.php:165
+msgid "First-year revenue, energy-exchange green board"
+msgstr ""
+
+#: includes/template.php:167
+msgid "Get the equipment list and quote"
+msgstr ""
+
+#: includes/template.php:175
+msgid "Print or save as PDF"
+msgstr ""
+
+#: includes/template.php:180
+msgid "Issue quote"
+msgstr ""
+
+#: includes/template.php:182
+msgid "Full name"
+msgstr ""
+
+#: includes/template.php:182
+msgid "e.g. Eng. Rezaei"
+msgstr ""
+
+#: includes/template.php:183
+msgid "Company or organization"
+msgstr ""
+
+#: includes/template.php:184
+msgid "Mobile number"
+msgstr ""
+
+#: includes/template.php:187
+msgid "Cancel"
+msgstr ""
